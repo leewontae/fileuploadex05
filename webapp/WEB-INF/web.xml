@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         id="WebApp_ID" version="4.0"
+>
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/applicationContext.xml</param-value>
+    </context-param>
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>dispatcher</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+
+        <multipart-config>
+            <location>/Users/iwontae/IdeaProjects/demo/fileuploadex05/upload/temp</location> <!--업로드되는 파일을 저장할 공간-->
+            <max-file-size>20971520</max-file-size> <!--MB * 20  업로드되는 파일의 최대크기 -->
+            <max-request-size>41943040</max-request-size><!--40MB 한번에 올릴 수 있는 최대 크기 -->
+            <file-size-threshold>20971520</file-size-threshold> <!--특정 사이즈 메모리 사용 : 20MB-->
+        </multipart-config>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dispatcher</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+</web-app>
+	

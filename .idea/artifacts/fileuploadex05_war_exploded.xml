@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="fileuploadex05:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/fileuploadex05_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="fileuploadex05/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="fileuploadex05" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.0.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.0.1" />
+          <element id="library" level="project" name="Maven: org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4:1.16" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.25" />
+          <element id="library" level="project" name="Maven: net.coobird:thumbnailator:0.4.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.5" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.5" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.5" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.5" />
+          <element id="library" level="project" name="Maven: com.fasterxml.woodstox:woodstox-core:5.0.3" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
